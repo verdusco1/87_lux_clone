@@ -65,6 +65,12 @@ nav ul li a {
 
 }
 
+@media screen and (max-width: 1100px) {
+    .top-container {
+        flex-direction: column;
+    }
+}
+
 .text-container {
   width: 30%;
   background-color: ;
@@ -113,6 +119,7 @@ nav ul li a {
 
 .video-container {
   width: 50%;
+
   background-color: ;
 }
 
@@ -170,6 +177,70 @@ nav ul li a {
         top: 200px;
         left: 55%;
 
+
+    }
+
+    @media screen and (max-width: 1100px) {
+        .top-container {
+            flex-direction: column;
+        }
+
+        .video {
+            position: absolute;
+            top: 800px;
+            width: 100%;
+            left: auto;
+            display: flex;
+            justify-content: center;
+            background-color: ;
+
+        }
+
+        #triangle-left {
+            width: 0;
+            height: 0;
+            border-top: 300px solid transparent;
+            border-right: 600px solid rgb(63, 39, 201);
+            border-bottom: 300px solid transparent;
+            display: inline-block;
+            position: relative;
+            left:25%;
+            top:-250px;
+            z-index: -1;
+        }
+
+        .circle_2 {
+            height: 250px;
+            width: 250px;
+            background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(26, 205, 211));
+            border-radius: 50%;
+            display: inline-block;
+            position: relative;
+            right: -350px;
+            top:300px;
+            z-index: -2;
+
+        }
+
+        .video-container {
+            width: 50%;
+            margin-top: 3rem;
+            background-color: ;
+          }
+
+          .text-container {
+            width: 100%;
+            background-color: ;
+           display:flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           margin-left: 0px;
+           margin-right: 0px;
+           padding: 25px;
+           background-color: ;
+
+          }
 
     }
 
@@ -285,6 +356,7 @@ nav ul li a {
         width: 100%;
         height: 350px;
         display: flex;
+
         flex-direction: column;
 
     }
